@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicemon Dominic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .navbar {
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            background-color: goldenrod;
+        }
+        .navbar li {
+            float: left;
+        }
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Navigation Bar</h2>
+    <ul class="navbar">
+        <li><a href="#main-heading">Home</a></li>
+        <li><a href="#first-paragraph">About</a></li>
+        <li><a href="#table-section">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <h1 id="main-heading" class="header" style="color: blue;">Nicemon Dominic H1</h1>
+    <h2 class="header">Nicemon Dominic H2</h2>
+    <h3 class="header">Nicemon Dominic H3</h3>
+    <h4 class="header">Nicemon Dominic H4</h4>
+    <h5 class="header">Nicemon Dominic H5</h5>
+    <h6 class="header">Nicemon Dominic H6</h6>
+
+    <p id="first-para" class="text">I'm Nicemon Dominic </p>
+    <p class="text" style="color: green;">Second paragraph with styling</p>
+    <p class="text">This is the third paragraph </p>
+
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-13-at-10.23.39-AM.png" alt="Sample Image" style="width:200px;height:150px;">
+    
+    <button onclick="alert('Button clicked')" style="margin-top: 20px;">Click Me</button>
+
+    <h2>Lists</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    
+
+    <h2>Icons</h2>
+    <p><i class="fa-brands fa-youtube"></i> YT Icon</p>
+
+    <h2 id="table-section">Table</h2>
+    <table>
+        <caption>Sample Table</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <td>Nicemon Dominic</td>
+            <td>19</td>
+            <td>1234 Bangalore</td>
+            
+        </tr>
+        <tr>
+            <td>Amith Roy</td>
+            <td>18</td>
+            <td colspan="2">5678 Pala</td>
+        </tr>
+    </table>
+
+</body>
+</html>
